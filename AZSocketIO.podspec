@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/pashields/AZSocketIO.git', :tag => 'v0.0.5' }
   s.source_files = 'AZSocketIO/*.{h,m}', 'AZSocketIO/Protocols/*.{h,m}', 'AZSocketIO/Transports/*.{h,m}'
   s.dependency 'SocketRocket', '~> 0.x'
-  s.dependency 'AFNetworking', '~> 1.x'
+  s.dependency 'AFNetworking', '~> 2.x'
   s.requires_arc = true
-  s.platform = :ios, 5.0
+  s.platform = :ios, 6.0
   s.prefix_header_contents = <<-EOS
 #import <Availability.h>
 
